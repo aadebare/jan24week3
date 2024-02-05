@@ -1,0 +1,124 @@
+.abm{
+    background-color:limegreen;
+    margin: 9%;
+}
+.aac{
+    background-color:limegreen;
+    margin: 9%;
+}
+.sk{
+    background-color: limegreen;
+    margin: 9%;
+}
+.fm{
+    background-color: limegreen ;
+    margin: 9%;
+}
+.abm:hover{
+    background-color: aqua;
+}
+.aac:hover{
+    background-color: aquamarine;
+}
+.sk:hover{
+    background-color: greenyellow;
+}
+.fm:hover{
+    background-color: green;
+}
+body{
+    width: 80%;
+    padding: 2rem;
+    margin: 2%;
+}
+
+h1{
+    background-color: rgb(124, 167, 167);
+    width: 36%;
+    padding: .1em;
+    margin: 5%;
+    text-align: center;
+    
+    
+}
+.first{
+    background-color: azure;
+}
+.first>h2{
+    background-color: rgb(143, 201, 252);
+    width: 11%;
+}
+.first h2+p{
+    padding: 2em;
+    margin: 1%;
+}
+.first h2 p {
+    padding: 2em;
+}
+.second{
+    background-color: beige;
+    
+}
+
+.second>h2{
+    background-color: rgb(219, 219, 163);
+    width: 34%;
+}
+.second a{
+    background-color:rgb(159, 159, 66) ;
+}
+.second a:hover{
+    background-color: rgba(4, 4, 182, 0.447);
+}
+.third{
+    background-color: rgb(226, 182, 248);
+    padding: 20%;
+    
+    
+}
+.third a:hover{
+    background-color:  rgba(39, 39, 174, 0.447);
+}
+.third h2{
+    background-color:rgb(193, 130, 225); 
+    width: 12%;
+    margin: 0.5%;
+}
+.third a{
+    background-color:rgb(200, 167, 219) ;
+}
+.fourth{
+    background-color: rgb(221, 236, 228);
+    margin: 2% 0 0 0; 
+}
+.fourth h2{
+    background-color:rgb(164, 236, 198) ;
+    width: 33.5%;
+}
+.fourth form{
+    width: 40%;
+}
+.fourth p{
+    background-color:rgb(100, 207, 150) ;
+}
+.fourth input{
+    border-radius: 15%;
+    padding: 1%;
+    text-align: right;
+    margin: 1em;
+}
+.fourth label{
+    text-align: left;
+    padding: 10%;
+}
+.botton{
+    background-color: gold;
+    
+}
+
+
+
+
+
+
+    
