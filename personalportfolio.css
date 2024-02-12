@@ -1,39 +1,120 @@
+main{
+    background-image: url(./sky+cloud.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px;
+    gap: 20px 20px;
+    
+    
+}
+main section{
+    border: 10px;
+    width: 80.7%;
+}
+.none{
+    grid-area: 1/1/2/4;
+}
+.header{
+    grid-area: 2/1/3/4;
+}
+.first:nth-of-type(2){
+    grid-area: 3/1/5/2;
+}
+.second:nth-of-type(3){
+    grid-area: 3/2/5/3;
+}
+.third:nth-of-type(4){
+    grid-area: 3/3/4/4;
+}
+.fourth:last-of-type{
+    grid-area: 4/3/5/4;
+}
+
+
+.none{
+    background-color:#BD9830 ;
+    
+    
+    
+}
+.none>.abm{
+    
+    font-size: x-large;
+    text-decoration: none;
+    margin-left: 3em;
+    border: .2em solid white;
+    padding: .4rem;
+    
+    font-weight: bolder;
+    
+    
+}
+.none>.aac{
+    font-size: x-large;
+    text-decoration: none;
+    border: .2em solid white ;
+    padding: .4rem;
+    margin-left: 4em;
+    font-weight: bolder;
+    
+}
+.none>.sk{
+    font-size: x-large;
+    text-decoration: none;
+    border: .2em solid white;
+    padding: .4rem;
+    margin-left: 1.5em;
+    font-weight: bolder;
+}
+.none>.fm{
+    font-size: x-large;
+    text-decoration: none;
+    border: .2em solid white;
+    padding: .4rem;
+    font-weight: bolder;
+}
+
+
+
+
 .abm{
-    background-color:limegreen;
-    margin: 9%;
+    background-color: #BD9830;
+    
 }
 .aac{
-    background-color:limegreen;
+    background-color:#BD9830;
     margin: 9%;
 }
 .sk{
-    background-color: limegreen;
+    background-color: #BD9830;
     margin: 9%;
 }
 .fm{
-    background-color: limegreen ;
+    background-color: #BD9830;
     margin: 9%;
 }
 .abm:hover{
-    background-color: aqua;
+    background-color: #FFFFFF;
 }
 .aac:hover{
-    background-color: aquamarine;
+    background-color: #FFFFFF;
 }
 .sk:hover{
-    background-color: greenyellow;
+    background-color: #FFFFFF;
 }
 .fm:hover{
-    background-color: green;
+    background-color: #FFFFFF;
 }
 body{
     width: 80%;
-    padding: 2rem;
-    margin: 2%;
+    padding: 5%;
 }
 
 h1{
-    background-color: rgb(124, 167, 167);
+    background-color: #77A553;
     width: 36%;
     padding: .1em;
     margin: 5%;
@@ -42,64 +123,70 @@ h1{
     
 }
 .first{
-    background-color: azure;
+    background-color: #78527A;
 }
 .first>h2{
-    background-color: rgb(143, 201, 252);
-    width: 11%;
+    background-color:  #78527A;
+    width: 100%;
+    text-align: center;
 }
-.first h2+p{
+.first h2 ~p{
     padding: 2em;
     margin: 1%;
 }
-.first h2 p {
-    padding: 2em;
-}
+
 .second{
-    background-color: beige;
+    background-color: #495043;
     
 }
 
 .second>h2{
-    background-color: rgb(219, 219, 163);
-    width: 34%;
+    background-color: #495043;
+    width: 100%;
+    text-align: center;
+    
 }
 .second a{
-    background-color:rgb(159, 159, 66) ;
+    background-color:#49583b ;
+    text-decoration: none;
 }
 .second a:hover{
-    background-color: rgba(4, 4, 182, 0.447);
+    background-color: #FFFFFF;
 }
 .third{
-    background-color: rgb(226, 182, 248);
+    background-color: #C98CB7;
     padding: 20%;
     
     
 }
 .third a:hover{
-    background-color:  rgba(39, 39, 174, 0.447);
+    background-color:  #FFFFFF;
 }
 .third h2{
-    background-color:rgb(193, 130, 225); 
-    width: 12%;
-    margin: 0.5%;
+    background-color:#C98CB7; 
+    width: 100%;
+    margin-bottom: 2em;
+    text-align: center;
+    
 }
 .third a{
-    background-color:rgb(200, 167, 219) ;
+    background-color: #c385af;
+    text-decoration: none;
 }
 .fourth{
-    background-color: rgb(221, 236, 228);
+    background-color: #A63B32;
     margin: 2% 0 0 0; 
 }
 .fourth h2{
-    background-color:rgb(164, 236, 198) ;
-    width: 33.5%;
+    background-color:#A63B32 ;
+    width: 100%;
+    text-align: center;
 }
 .fourth form{
     width: 40%;
 }
 .fourth p{
-    background-color:rgb(100, 207, 150) ;
+    background-color:#A63B32 ;
 }
 .fourth input{
     border-radius: 15%;
@@ -112,9 +199,10 @@ h1{
     padding: 10%;
 }
 .botton{
-    background-color: gold;
-    
+    background-color: #FFFFFF;
 }
+
+
 
 
 

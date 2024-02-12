@@ -1,0 +1,162 @@
+body{
+    width: 80%;
+    padding: 2%;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px;
+    gap: 10px 10px;
+    background-image: url(./sky+cloud.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    
+}
+main section{
+    border: 5px ;
+    
+}
+section:first-of-type{
+    grid-area: 1/1/2/4;
+}
+section:nth-of-type(2){
+    grid-area: 2/1/3/4;
+}
+sectio:nth-of-type(3){
+    grid-area: 3/1/5/2;
+}
+section:nth-of-type(4){
+    grid-area: 3/2/5/3;
+}
+section:nth-of-type(5){
+    grid-area: 3/3/4/4;
+}
+section:last-of-type{
+    grid-area: 4/3/5/4;
+}
+.none{
+    background-color: #E6776E;
+    width: 100%;
+}
+.none>a:hover{
+    background-color: white;
+}
+.none>.abm{
+    background-color: #E6776E ;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: x-large;
+    padding: .1em;
+    margin: 1.5em;
+    border: .2em solid white;
+}
+.none>.aac{
+    background-color:  #E6776E;
+    text-decoration: none;
+    font-weight:bolder ;
+    font-size: x-large;
+    padding: .1em;
+    margin: 1.5em;
+    border: .2em solid white;
+}
+.none>.sk{
+    background-color:  #E6776E;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: x-large;
+    padding: .1em;
+    margin: 2.5em;
+    border: .2em solid white;
+}
+.none>.fm{
+    background-color:  #E6776E;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: x-large;
+    padding: .1em;
+    margin: 3.5em;
+    border: .2em solid white;
+}
+.header{
+    background-color: #E6A16E;
+    text-align: center;
+    width: 100%;
+}
+.first{
+    background-color: #E68C6E;
+    width: 12em;
+    padding: 1em;
+    font-size: larger;
+    text-align: center;
+}
+.second{
+    background-color:#E66E97;
+    width: 45em;
+    padding: 3em;
+    font-size: larger;
+    text-align: center;
+}
+.second a:hover{
+    background-color: white;
+}
+.second a{
+    text-decoration: none;
+    background-color:#dc5d87 ;
+}
+.third{
+    background-color: #E6C5BB;
+    width: 15em;
+    padding: 3em;
+    font-size: larger;
+    text-align: center;
+}
+.third a{
+    text-decoration: none;
+    background-color: #e5bdb1;
+    
+}
+.third abbr{
+    text-decoration: none;
+}
+.third a:hover{
+    background-color: white;
+}
+img[src$='jpg1']{
+    height: 300px;
+    width: 300px;
+    margin-left: -30%;
+}
+img[src$='jpg2']{
+    height: 300px;
+    width: 300px;
+    margin-left: -30%;
+}
+.fourth{
+    background-color: #453A69;
+    width: 15em;
+    padding: 4em;
+    text-align: center;
+}
+.fourth form {
+width: 40%;
+}
+.fourth input{
+    border-radius: 20%;
+    padding: 1%;
+    text-align: right;
+    margin: .5em;
+}
+.fourth label{
+  text-align: left; 
+  padding: 1%; 
+}
+img[src$='jpg']{
+    height: 400px;
+}
+img[src$='png']{
+    height: 400px;
+}
+
+
